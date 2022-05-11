@@ -103,7 +103,8 @@ devtools::check()
 ```{r}
 # set and try pkgdown documentation website
 usethis::use_pkgdown()
-pkgdown::build_site()
+pkgdown::build_site(override=list(lang="es"))#oh, now we are talking
+pkgdown::build_site_github_pages(override=list(lang="es"))
 
 # build the tar.gz with vignettes to share with others
 devtools::build(vignettes = TRUE)
