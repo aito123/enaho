@@ -4,6 +4,8 @@
 # enaho
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/aito123/enaho/workflows/R-CMD-check/badge.svg)](https://github.com/aito123/enaho/actions)
 <!-- badges: end -->
 
 The goal of enaho is to …
